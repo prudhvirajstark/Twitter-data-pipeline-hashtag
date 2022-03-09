@@ -1,0 +1,19 @@
+2022-03-10 00:35:56,754:INFO:logs:File ChargeNow_20220310 was not available to process!
+2022-03-10 00:35:56,839:INFO:logs:File ChargeNow_20220309 loaded to process!
+2022-03-10 00:35:56,839:INFO:logs:File ChargeNow_20220310 was not available to process!
+2022-03-10 00:35:56,846:INFO:logs:File ChargeNow_20220309 loaded to process!
+2022-03-10 00:35:56,846:INFO:logs:File ChargeNow_20220310 was not available to process!
+2022-03-10 00:35:56,852:INFO:logs:File ChargeNow_20220309 loaded to process!
+2022-03-10 00:35:56,852:INFO:logs:File ChargeNow_20220310 was not available to process!
+2022-03-10 00:35:56,857:INFO:logs:File ChargeNow_20220309 loaded to process!
+2022-03-10 00:35:56,857:INFO:logs:File ChargeNow_20220310 was not available to process!
+2022-03-10 00:35:56,866:INFO:logs:File ChargeNow_20220309 loaded to process!
+2022-03-10 00:35:56,866:INFO:logs:File ChargeNow_20220310 was not available to process!
+2022-03-10 00:35:56,873:INFO:logs:File ChargeNow_20220309 loaded to process!
+2022-03-10 00:35:56,880:INFO:logs:File ChargeNow_20220310 loaded to process!
+2022-03-10 00:35:56,880:INFO:logs:File ChargeNow_20220309 was not available to process!
+2022-03-10 00:35:56,886:INFO:logs:File ChargeNow_20220310 loaded to process!
+2022-03-10 00:35:56,887:INFO:logs:File ChargeNow_20220309 was not available to process!
+2022-03-10 00:35:56,892:INFO:logs:File ChargeNow_20220310 loaded to process!
+2022-03-10 00:35:56,892:INFO:logs:File ChargeNow_20220309 was not available to process!
+2022-03-10 00:35:56,919:INFO:logs:Files loaded were sucessfully processed!
