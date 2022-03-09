@@ -1,0 +1,9 @@
+﻿,author_id,tweet_id,author_location,author_followers,created_at,author_tweets,retweets,hash
+0,b'\xe3G\xb3b?\x05\xa3\x01L\xff{dvm\xfd\xce',1499771714473177088,MUMBAI,119,2022-03-04 15:40:15+00:00,568,0,['ChargeNow']
+1,b'\xe2\xb6;E\x98E\xa4C+\xe8S\xb6*\xc1\x9eu',1488654044671488000,Iztapalapa 09070,110,2022-02-01 23:22:36+00:00,259,0,"['chargenow', 'evcharging', 'emobility', 'EV', 'GreenLive', 'VehículoEléctrico', 'Innovación']"
+2,b'\xce\xe9\x82h{\xce\xb2\n\xfb\x92\x14\x90\xaa\x10\x05\x81',1488142346000945154,"bangkok, Thailand",450,2022-01-31 13:29:18+00:00,6763,0,"['EVoltThailand', 'EVolt', 'EVoltKnowledge', 'EV', 'EVcharging', 'EMobility', 'ChargeNow', 'motorworld', 'mtw']"
+3,b'\x7f\xaf\xf0\x1f\x9d\xd8Z\xf4\x07\xa7\x99+K:r\xea',1484645182809288711,Mexico City,351,2022-01-21 21:52:49+00:00,4269,1,['chargenow']
+4,b'\xe2\xb6;E\x98E\xa4C+\xe8S\xb6*\xc1\x9eu',1484594066234953729,Iztapalapa 09070,110,2022-01-21 18:29:42+00:00,259,1,"['chargenow', 'evcharging', 'emobility', 'EV', 'puntodecarga']"
+5,"b'+\xb0,\xf6\xb8\x80\xcd\x0e\xa7\xd2\xec\\\xad\xe0\xdaS'",1482653589067612160,,369,2022-01-16 09:58:56+00:00,20886,0,['ChargeNOW']
+6,b'\x08)\x96\xc5&\xbc`f\xde\x1f\xe3\x18\x02\x92\xdaP',1482647583780917255,,82,2022-01-16 09:35:04+00:00,26934,0,['ChargeNOW']
+7,"b""\x82r\x7f\xd4\xa43\xa5\xf7\xb7d\xa3'\xe8\xa8\xc6\xe0""",1479664624635162625,New York State,126,2022-01-08 04:01:52+00:00,23566,0,"['ChargeNow', 'NOW', 'NOW', 'IMeanRightNow', 'Dead']"
