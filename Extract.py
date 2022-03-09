@@ -40,6 +40,7 @@ try:
     log_info(f"Hashtag search was sucessfull from {date_since} to {date_until} !",today_date_time)
 except Exception as e:
     log_error(e,today_date_time)
+    raise Exception(e)
 
 
 try:
@@ -83,3 +84,4 @@ try:
         log_info(f"No data with #ChargeNow from {date_since} to {date_until} !",today_date_time)
 except Exception as exp:
     log_error(exp,today_date_time)
+    raise Exception(exp)

@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import numpy as np
 pd.options.mode.chained_assignment = None
 from datetime import datetime,timezone,timedelta,date
 import hashlib
@@ -22,6 +23,7 @@ try:
         files.append(f'ChargeNow_{date}')
 except Exception as e:
     log_error('Error Creating list of files to process\n'+str(e),today_date_time)
+    raise Exception(e)
 
 try:
     stage_directory = '/home/prudhvirajstark/Documents/Repos/DCS_Data_engineer_task/stage'
@@ -37,6 +39,7 @@ try:
                 pass
 except Exception as e:
         log_error('Error Creating list of files to process\n'+str(e),today_date_time)
+        raise Exception(e)
 
 try:
     # Anonymising the column author_id
@@ -45,6 +48,14 @@ try:
         idEncoded = str(df['author_id'][i]).encode("utf-8")
         encoded_message = hashlib.md5(idEncoded)
         df['author_id'][i] = encoded_message.digest()
+
+    # Missing Location Null Values
+    df['author_location'].fillna("No Location", inplace = True)
+
+    # Renaming the retweets column for appropriate name
+    df.rename(columns = {'retweets' : 'is_retweet'}, inplace = True)
+
+    df["is_retweet"] = np.where(df["is_retweet"] == 0, 'NO', 'YES')
 
     # Creating column with a list of hashtags in the tweet
     df['hash'] = None
@@ -59,7 +70,7 @@ try:
     df_Hashtags = df_Hashtags.explode('hash')
 
     # # Dopping unecessary columns from df
-    df = df.drop(columns=['username','hashtags'])
+    df = df.drop(columns=['username','hashtags','hash'])
 
     df  = df.drop_duplicates(subset=["tweet_id"])
     
@@ -76,3 +87,4 @@ try:
     log_info(f"Files loaded were sucessfully processed!",today_date_time)
 except Exception as e:
     log_error('Files loaded were not processed today \n'+str(e),today_date_time)
+    raise Exception(e)
