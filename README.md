@@ -55,6 +55,7 @@ The folder and files structures:
 3. Perform Transformations and save it into local file
 4. Monitor the dags through notifying the SLACK Channel
 
+![alt text](https://github.com/prudhvirajstark/Twitter-data-pipeline-hashtag/blob/master/Images/Airflow_dags.png?raw=true)
 
 
 ## References
