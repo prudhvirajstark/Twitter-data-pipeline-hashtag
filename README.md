@@ -15,38 +15,47 @@ This is a basic end to end etl pipeline to search data from a Twitter API v2 end
 
 The folder and files structures:
 ```
-├── consumer                                    
-│   ├── ChargeNowData                               
-│   │   └── ChargeNow_20220310-003556.csv
-│   └── HashtagsData
-│       └── Hashtag_20220310-003556.csv
-├── dags
-│   ├── dags_utils
-│   │   └── slack.py
-│   └── twitter_pipeline.py
-├── Images
-│   ├── Airflow_dags.png
-│   ├── Extract_1.png
-│   ├── Extract_2.png
-│   ├── logs.png
-│   ├── pipeline_1.png
-│   ├── Pipeline_2.pngma
-│   ├── Slack_message_success.png
-│   ├── Slack_script.png
-│   ├── transform_1.png
-│   └── transform_2.png
-├── logs
-│   └── log_20220310-003556.txt
-├── stage
-│   └── ChargeNow_20220310-003553.parquet.gzip
-├── Dashboard_Report.pbix
-├── Extract.py
-├── logs.py
-├── README.md
-├── requirements.txt
-└── Transform.py
-
-8 directories, 22 files
+│   Dashboard_Report.pbix
+│   Extract.py
+│   logs.py
+│   Presentation.pptx
+│   README.md
+│   requirements.txt
+│   Transform.py
+│
+├───consumer
+│   ├───ChargeNowData
+│   │       ChargeNow_20220310-003556.csv
+│   │
+│   └───HashtagsData
+│           Hashtag_20220310-003556.csv
+│
+├───dags
+│   │   twitter_pipeline.py
+│   │
+│   └───dags_utils
+│           slack.py
+│
+├───Images
+│       Airflow_dags.png
+│       Dag.png
+│       Dashboard_image.png
+│       ETL_Architecture.png
+│       Extract_1.png
+│       Extract_2.png
+│       logs.png
+│       pipeline_1.png
+│       Pipeline_2.png
+│       Slack_message_success.png
+│       Slack_script.png
+│       transform_1.png
+│       transform_2.png
+│
+├───logs
+│       log_20220310-003556.txt
+│
+└───stage
+        ChargeNow_20220310-003553.parquet.gzip
 ```
 
 ## Dags
